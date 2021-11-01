@@ -132,8 +132,3 @@ spark.sql("""
             GROUP BY Sex
           """).show()
 ```
-
-#### Output in HTML File
-```python
-df.to_html('output.html')
-```
